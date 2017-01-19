@@ -1,0 +1,13 @@
+{
+    "name": "root/app",
+    "require": {
+        "silex/silex": "^2.0",
+        "monolog/monolog": "^1.22",
+        "symfony/var-dumper": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src"
+        }
+    }
+}
